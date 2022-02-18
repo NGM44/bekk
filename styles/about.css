@@ -46,9 +46,167 @@ main {
     object-fit: fill;
 }
 
-.about-img {
-    width: 100%;
+.about-img-founder {
+    
+    width: 25vw;
+    height: 50vh;
 }
+.about-img {
+    
+    width: 100%;
+    
+}
+.enterprises-logos-container{
+    /* border: 1px solid red;    */
+    width: 50vw;
+    height: 50vh;
+}
+.founder-decription{
+    margin-left: 10%;
+}
+.references-founder {
+    background-color: #1B262F;
+    color: white;
+    height: 472px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 550px) -350px;
+}
+/* 9999999999999999999999999999999999 */
+.flex-container-founder {
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: stretch;
+    /* margin: 9%; */
+    padding: 6%;
+    
+    /* background-color: #f1f1f1; */
+  }
+  .image-founder {
+    display: block;
+    width: 20vw;
+    height: 50vh;
+    margin-top: 9%;
+  }
+  
+  
+  .flex-container-founder > div {
+    /* background-color: DodgerBlue; */
+    /* justify-content: space-between; */
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .references-founder {
+    background-color: #1B262F;
+    color: white;
+    height: 472px;
+    background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 550px) -350px;
+  }
+/* 88888888888888888888888888888888888 */
+.references-clients {
+    background-color: #1B262F;
+    color: white;
+    height: 472px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 550px) -350px;
+  }
+  
+  .container-clients {
+    position: relative;
+    width: 20vw;
+  }
+  
+  .image-clients {
+    display: block;
+    width: 20vw;
+    height: 50vh;
+  }
+  
+  .overlay-clients {
+    
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    height: 50vh;
+    width: 20vw;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .container-clients:hover .overlay-clients {
+    opacity: 0.8;
+  }
+  
+  .text-clients {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+/*88888888888888888888888888888888  */
+
+.box{
+    /* background-image: url(/assets/about/desktop/robert-downey-jr.jpg); */
+    border: 1px solid red;
+    margin: 5%;
+    width: 25vw;
+    height: 50vh;
+}
+.text{
+    color: #ba4270;
+}
+.box:hover .text{
+    background-color: red;
+}
+.photobox{
+    /* border: 1px solid green; */
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 20vw;
+    height: 39vh;
+}
+.photobox > img{
+    width: 20vw;
+    height: 39vh;
+    border-radius: 25px;
+}
+.box > h4, h5{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.flex-container {
+    display: flex;
+  }
+  .flex-container > div {
+    margin-left: 55px;
+    padding: 20px;
+    font-size: 30px;
+    
+  }
+
 
 .company-stats {
     display: grid;
