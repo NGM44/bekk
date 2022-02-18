@@ -46,9 +46,76 @@ main {
     object-fit: fill;
 }
 
-.about-img {
-    width: 100%;
+.about-img-founder {
+    
+    width: 25vw;
+    height: 50vh;
 }
+.about-img {
+    
+    width: 100%;
+    
+}
+.enterprises-logos-container{
+    /* border: 1px solid red;    */
+    width: 50vw;
+    height: 50vh;
+}
+.founder-decription{
+    margin-left: 10%;
+}
+.references-founder {
+    background-color: #1B262F;
+    color: white;
+    height: 472px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 550px) -350px;
+}
+
+.box{
+    /* background-image: url(/assets/about/desktop/robert-downey-jr.jpg); */
+    border: 1px solid red;
+    margin: 5%;
+    width: 25vw;
+    height: 50vh;
+}
+.text{
+    color: #ba4270;
+}
+.box:hover .text{
+    background-color: red;
+}
+.photobox{
+    /* border: 1px solid green; */
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 20vw;
+    height: 39vh;
+}
+.photobox > img{
+    width: 20vw;
+    height: 39vh;
+    border-radius: 25px;
+}
+.box > h4, h5{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.flex-container {
+    display: flex;
+  }
+  .flex-container > div {
+    margin-left: 55px;
+    padding: 20px;
+    font-size: 30px;
+    
+  }
+
 
 .company-stats {
     display: grid;
