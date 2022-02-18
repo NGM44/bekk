@@ -31,4 +31,15 @@ if (ipad.matches)
 
 ipad.addEventListener('change', validation)
 
+// function openImage(_class){
+//     imageSrc = document.getElementsByClassName(_class);
+//     const imageShower = document.getElementsByClassName('showImage');
+//     imageShower[0].src = imageSrc[0].src;
+//     const image = document.getElementById('imageDisplayer');
+//     image.style.display = 'block';
+// }
 
+// function closeImage(){
+//     const image = document.getElementById('imageDisplayer');
+//     image.style.display = "none";
+// }

@@ -323,6 +323,7 @@ footer a {
 footer a:hover {
     color: #fbfcfe;
     opacity: 1;
+    cursor: pointer;
 }
 
 .social-links {
