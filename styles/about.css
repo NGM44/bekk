@@ -81,6 +81,7 @@ body {
 .headline{
     justify-content: center;
     text-align: center;
+    margin-top: 50px;
 }
 /* for headline  */
 
@@ -259,36 +260,28 @@ main {
   .overlay-clients {
       
     position: absolute;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
-    top: 0px;
-    bottom: 0;
-    left: 0px;
-    right: 0;
-    height: inherit;
-    width: inherit;
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 10px;
+    margin: auto 0;
     opacity: 0;
     text-align: justify;
     transition: .5s ease;
-    background-color: rgb(8, 8, 8);
   }
   
   .container-clients:hover .overlay-clients {
     opacity: 0.8;
+    cursor: pointer;
   }
   
   .text-clients {
     color: white;
     font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: justify;
+    text-align: center;
+    margin: auto 0;
   }
 /*88888888888888888888888888888888  */
 
