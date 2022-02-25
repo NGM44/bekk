@@ -45,8 +45,8 @@ section {
   margin: 20px;
   cursor: pointer;
 }
-
-/* .imageDisplayer {
+/* 
+.imageDisplayer {
     display: none;
 }
 
@@ -57,8 +57,8 @@ section {
   transform: translate(-50%, -50%);
   width: auto;
 } */
-
-/* .imageDisplayer button {
+/* 
+ .imageDisplayer button {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -66,16 +66,16 @@ section {
   border: none;
   cursor: pointer;
   color: white;
-} */
+} 
 
-/* .backdrop {
+ .backdrop {
   position: absolute;
   height: 100vh;
   width: 100%;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.637);
-} */
+} */ */
 
 /* Team Section */
 
